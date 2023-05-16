@@ -1,0 +1,95 @@
+body {
+  --blue: #14213D;
+  --yellow: #FCA311;
+  --gray: #FAFAFA;
+  --white: #FFFFFF;
+}
+.Projects
+{
+    display: flex;
+    flex-direction: column;
+}
+.Projects .Project
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    margin: 30px 5%
+    
+}
+.Project div
+{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    border: 1px solid darkgray;
+
+}
+.projectImg1
+{
+    background-color: var(--yellow);
+    height: 350px;
+}
+.projectImg2
+{
+    background-color: var(--blue);
+    height: 350px;
+}
+.projectImg3
+{
+    background-color: pink;
+    height: 350px;
+}
+.projectImg1 img
+{
+    width: 100%;
+}
+.projectImg2 img
+{
+    width: 70%;
+}
+.projectImg3 img
+{
+    width: 35%;
+}
+.Project .projectInfo1  
+{
+    border-bottom: 4px solid var(--yellow);
+}
+.projectInfo1 h2 
+{
+    color: var(--yellow);
+}
+.Project .projectInfo2
+{
+    border-bottom: 4px solid var(--blue);
+}
+.projectInfo2 h2 
+{
+    color: var(--blue);
+}
+.Project .projectInfo3 
+{
+    border-bottom: 4px solid pink;
+}
+.projectInfo3 h2 
+{
+    color: pink;
+}
+ .Project a
+{
+    text-decoration: none;
+    color: lightblue;
+}
+.Project a:hover
+{
+    text-decoration: underline;
+
+}
